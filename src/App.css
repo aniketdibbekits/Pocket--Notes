@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  display: flex;
+}
+
+.left-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-container {
+  flex: 1;
+  padding: 20px;
+  margin: 900px;
+}
+
+
+.selected-group-data {
+  /* Add styles for selected group data */
+}

@@ -15,6 +15,42 @@
   height: 200px;
   width: 350px;
 }
+.group-heading {
+  display: flex;
+  align-items: center;
+}
+
+.initials-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.task-item {
+  margin-bottom: 10px;
+}
+
+.task-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.task {
+  flex: 3;
+}
+
+.group-name {
+  margin: 0;
+}
+
 .data {
   height: 200px;
   width: 600px;
